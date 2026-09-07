@@ -2,7 +2,7 @@ import ctypes
 import os
 import random
 
-WALLPAPER_FOLDER = r"D:\TAHIR CODE\wallpaper\wallpaperimage"
+WALLPAPER_FOLDER = r"D:\TAHIR CODE\wallpaper2.0\wallpaperimage"
 
 images = [file for file in os.listdir(WALLPAPER_FOLDER) if file.lower().endswith(('.jpg', '.jpeg', '.png'))]
 
